@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1329e208-6172-4b7f-a6da-c3fc2e1c7b6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/TrackAndTrace.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/xcode.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrackAndTrace.xcodeproj/xcuserdata/jlange.xcuserdatad/xcschemes/TrackAndTrace.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrackAndTrace/Assets.xcassets/Blue.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrackAndTrace/Assets.xcassets/Gray.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrackAndTrace/Assets.xcassets/start_image_view.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrackAndTrace/Assets.xcassets/start_image_view.imageset/depositphotos_35693183-stock-illustration-abstract-blue-circles-horizontal-border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrackAndTrace/Views/StartView.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrackAndTrace.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/TrackAndTrace.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrackAndTrace.xcodeproj/xcuserdata/jlange.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/TrackAndTrace.xcodeproj/xcuserdata/jlange.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrackAndTrace/ContentView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrackAndTrace/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/TrackAndTrace/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrackAndTrace/TrackAndTraceApp.swift" beforeDir="false" afterPath="$PROJECT_DIR$/TrackAndTrace/TrackAndTraceApp.swift" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_0846B61E-8D59-4F48-A0D8-2BEB98EB5292" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ivtBrFGWJFmP3Z3dGXuxeKF7om" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TrackAndTrace" />
+      <recent name="$PROJECT_DIR$/TrackAndTrace/Fonts" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TrackAndTrace" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TrackAndTrace" TARGET_NAME="TrackAndTrace" CONFIG_NAME="Debug" SCHEME_NAME="TrackAndTrace" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" RUN_TARGET_PROJECT_NAME="TrackAndTrace" RUN_TARGET_NAME="TrackAndTrace" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <embedded_app_extension_list />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1329e208-6172-4b7f-a6da-c3fc2e1c7b6e" name="Default Changelist" comment="" />
+      <created>1602799769018</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602799769018</updated>
+      <workItem from="1602799775282" duration="225000" />
+      <workItem from="1602800028234" duration="2372000" />
+      <workItem from="1602802575552" duration="218000" />
+      <workItem from="1602803208919" duration="4592000" />
+      <workItem from="1602872311361" duration="1472000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="772" y="209" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602800321517">
+      <screen x="0" y="25" width="1920" height="982" />
+    </state>
+    <state x="772" y="209" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1440.25.1440.875/0.25.1920.982@0.25.1920.982" timestamp="1602800321517" />
+    <state x="677" y="247" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602873136339">
+      <screen x="0" y="25" width="1920" height="982" />
+    </state>
+    <state x="677" y="247" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1440.25.1440.875/0.25.1920.982@0.25.1920.982" timestamp="1602873136339" />
+    <state width="1497" height="133" key="GridCell.Tab.0.bottom" timestamp="1602873065342">
+      <screen x="0" y="25" width="1920" height="982" />
+    </state>
+    <state width="1497" height="133" key="GridCell.Tab.0.bottom/-1440.25.1440.875/0.25.1920.982@0.25.1920.982" timestamp="1602873065342" />
+    <state width="1497" height="133" key="GridCell.Tab.0.bottom/-1440.25.1440.875/0.25.1920.993@0.25.1920.993" timestamp="1602872641228" />
+    <state width="1497" height="133" key="GridCell.Tab.0.center" timestamp="1602873065341">
+      <screen x="0" y="25" width="1920" height="982" />
+    </state>
+    <state width="1497" height="133" key="GridCell.Tab.0.center/-1440.25.1440.875/0.25.1920.982@0.25.1920.982" timestamp="1602873065341" />
+    <state width="1497" height="133" key="GridCell.Tab.0.center/-1440.25.1440.875/0.25.1920.993@0.25.1920.993" timestamp="1602872641222" />
+    <state width="1497" height="133" key="GridCell.Tab.0.left" timestamp="1602873065341">
+      <screen x="0" y="25" width="1920" height="982" />
+    </state>
+    <state width="1497" height="133" key="GridCell.Tab.0.left/-1440.25.1440.875/0.25.1920.982@0.25.1920.982" timestamp="1602873065341" />
+    <state width="1497" height="133" key="GridCell.Tab.0.left/-1440.25.1440.875/0.25.1920.993@0.25.1920.993" timestamp="1602872641217" />
+    <state width="1497" height="133" key="GridCell.Tab.0.right" timestamp="1602873065342">
+      <screen x="0" y="25" width="1920" height="982" />
+    </state>
+    <state width="1497" height="133" key="GridCell.Tab.0.right/-1440.25.1440.875/0.25.1920.982@0.25.1920.982" timestamp="1602873065342" />
+    <state width="1497" height="133" key="GridCell.Tab.0.right/-1440.25.1440.875/0.25.1920.993@0.25.1920.993" timestamp="1602872641227" />
+    <state x="644" y="124" key="SettingsEditor" timestamp="1602803586791">
+      <screen x="0" y="25" width="1920" height="982" />
+    </state>
+    <state x="644" y="124" key="SettingsEditor/-1440.25.1440.875/0.25.1920.982@0.25.1920.982" timestamp="1602803586791" />
+    <state x="543" y="414" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602800856095">
+      <screen x="0" y="25" width="1920" height="982" />
+    </state>
+    <state x="543" y="414" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1440.25.1440.875/0.25.1920.982@0.25.1920.982" timestamp="1602800856095" />
+    <state x="591" y="409" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602873960204">
+      <screen x="0" y="25" width="1920" height="982" />
+    </state>
+    <state x="591" y="409" key="git4idea.remote.GitConfigureRemotesDialog/-1440.25.1440.875/0.25.1920.982@0.25.1920.982" timestamp="1602873960204" />
+    <state x="385" y="191" key="run.anything.popup" timestamp="1602806130591">
+      <screen x="0" y="25" width="1920" height="982" />
+    </state>
+    <state x="385" y="191" key="run.anything.popup/-1440.25.1440.875/0.25.1920.982@0.25.1920.982" timestamp="1602806130591" />
+    <state x="402" y="231" key="search.everywhere.popup" timestamp="1602801788365">
+      <screen x="0" y="25" width="1920" height="982" />
+    </state>
+    <state x="402" y="231" key="search.everywhere.popup/-1440.25.1440.875/0.25.1920.982@0.25.1920.982" timestamp="1602801788365" />
+  </component>
+</project>

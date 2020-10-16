@@ -1,0 +1,394 @@
+Index: TrackAndTrace/TrackAndTraceApp.swift
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>//\n//  TrackAndTraceApp.swift\n//  TrackAndTrace\n//\n//  Created by Justin Lange on 15/10/2020.\n//\n\nimport SwiftUI\n\n@main\nstruct TrackAndTraceApp: App {\n    var body: some Scene {\n        WindowGroup {\n            ContentView()\n        }\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- TrackAndTrace/TrackAndTraceApp.swift	(revision 22bc916966d414354ffbebc47fc9b3edd368eb45)
++++ TrackAndTrace/TrackAndTraceApp.swift	(date 1602873084852)
+@@ -11,7 +11,7 @@
+ struct TrackAndTraceApp: App {
+     var body: some Scene {
+         WindowGroup {
+-            ContentView()
++            StartView()
+         }
+     }
+ }
+Index: TrackAndTrace/ContentView.swift
+===================================================================
+--- TrackAndTrace/ContentView.swift	(revision 22bc916966d414354ffbebc47fc9b3edd368eb45)
++++ TrackAndTrace/ContentView.swift	(revision 22bc916966d414354ffbebc47fc9b3edd368eb45)
+@@ -1,21 +0,0 @@
+-//
+-//  ContentView.swift
+-//  TrackAndTrace
+-//
+-//  Created by Justin Lange on 15/10/2020.
+-//
+-
+-import SwiftUI
+-
+-struct ContentView: View {
+-    var body: some View {
+-        Text("Hello, world!")
+-            .padding()
+-    }
+-}
+-
+-struct ContentView_Previews: PreviewProvider {
+-    static var previews: some View {
+-        ContentView()
+-    }
+-}
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/modules.xml	(date 1602799778718)
++++ .idea/modules.xml	(date 1602799778718)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/TrackAndTrace.iml" filepath="$PROJECT_DIR$/.idea/TrackAndTrace.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: TrackAndTrace.xcodeproj/xcuserdata/jlange.xcuserdatad/xcschemes/xcschememanagement.plist
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n<plist version=\"1.0\">\n<dict>\n\t<key>SchemeUserState</key>\n\t<dict>\n\t\t<key>TrackAndTrace.xcscheme_^#shared#^_</key>\n\t\t<dict>\n\t\t\t<key>orderHint</key>\n\t\t\t<integer>0</integer>\n\t\t</dict>\n\t</dict>\n</dict>\n</plist>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- TrackAndTrace.xcodeproj/xcuserdata/jlange.xcuserdatad/xcschemes/xcschememanagement.plist	(revision 22bc916966d414354ffbebc47fc9b3edd368eb45)
++++ TrackAndTrace.xcodeproj/xcuserdata/jlange.xcuserdatad/xcschemes/xcschememanagement.plist	(date 1602872311160)
+@@ -4,7 +4,7 @@
+ <dict>
+ 	<key>SchemeUserState</key>
+ 	<dict>
+-		<key>TrackAndTrace.xcscheme_^#shared#^_</key>
++		<key>TrackAndTrace.xcscheme</key>
+ 		<dict>
+ 			<key>orderHint</key>
+ 			<integer>0</integer>
+Index: TrackAndTrace/Assets.xcassets/start_image_view.imageset/Contents.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- TrackAndTrace/Assets.xcassets/start_image_view.imageset/Contents.json	(date 1602807211217)
++++ TrackAndTrace/Assets.xcassets/start_image_view.imageset/Contents.json	(date 1602807211217)
+@@ -0,0 +1,21 @@
++{
++  "images" : [
++    {
++      "filename" : "depositphotos_35693183-stock-illustration-abstract-blue-circles-horizontal-border.png",
++      "idiom" : "universal",
++      "scale" : "1x"
++    },
++    {
++      "idiom" : "universal",
++      "scale" : "2x"
++    },
++    {
++      "idiom" : "universal",
++      "scale" : "3x"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(date 1602799778753)
++++ .idea/vcs.xml	(date 1602799778753)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: TrackAndTrace/Assets.xcassets/Gray.colorset/Contents.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- TrackAndTrace/Assets.xcassets/Gray.colorset/Contents.json	(date 1602804914824)
++++ TrackAndTrace/Assets.xcassets/Gray.colorset/Contents.json	(date 1602804914824)
+@@ -0,0 +1,20 @@
++{
++  "colors" : [
++    {
++      "color" : {
++        "color-space" : "srgb",
++        "components" : {
++          "alpha" : "1.000",
++          "blue" : "0x44",
++          "green" : "0x3B",
++          "red" : "0x37"
++        }
++      },
++      "idiom" : "universal"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+Index: .idea/xcode.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/xcode.xml	(date 1602799778827)
++++ .idea/xcode.xml	(date 1602799778827)
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="XcodeMetaData" PROJECT_FILE="$PROJECT_DIR$/TrackAndTrace.xcodeproj" />
++</project>
+\ No newline at end of file
+Index: TrackAndTrace/Views/StartView.swift
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- TrackAndTrace/Views/StartView.swift	(date 1602873094798)
++++ TrackAndTrace/Views/StartView.swift	(date 1602873094798)
+@@ -0,0 +1,57 @@
++//
++//  StartView.swift
++//  TrackAndTrace
++//
++//  Created on 15/10/2020.
++//
++
++import SwiftUI
++
++struct StartView: View {
++    var body: some View {
++        Image("start_image_view").resizable()
++                .frame(height: 250.0, alignment: .top).ignoresSafeArea()
++
++        VStack() {
++            HStack {
++                Image(systemName: "waveform.path.ecg")
++                        .font(.system(size: 55)).foregroundColor(Color("Gray"))
++            }.padding().frame(width: 420, height: 50, alignment: .topLeading)
++
++            VStack(alignment: .leading) {
++                Text("The tracing app that")
++                        .font(.system(size: 34, weight: .bold, design: .rounded)).padding(.top, 20)
++                Text("protects students in")
++                        .font(.system(size: 34, weight: .bold, design: .rounded))
++                Text("universities.")
++                        .font(.system(size: 34, weight: .bold, design: .rounded))
++            }.padding().frame(width: 400, alignment: .topLeading)
++        }
++
++        Spacer()
++        Button(action: {
++            print("SwiftUI: Button tapped!")
++        }) {
++            HStack {
++                Text("Getting Started ")
++                        .fontWeight(.semibold)
++                        .font(.title2)
++            }
++                    .frame(minWidth: 0, maxWidth: 240)
++                    .padding()
++                    .foregroundColor(.white)
++                    .background(LinearGradient(gradient: Gradient(colors: [Color("Gray"), Color("Blue")]), startPoint: .leading, endPoint: .trailing))
++                    .cornerRadius(50)
++                    .padding(.top, 60)
++        }
++        Spacer()
++        Text("Copyright © 2020, created by students.\nVersion: 1.0.0").foregroundColor(Color("Gray")).padding(.top, 40).font(.body).multilineTextAlignment(.center)
++        Spacer()
++    }
++}
++
++struct StartView_Previews: PreviewProvider {
++    static var previews: some View {
++        StartView()
++    }
++}
+Index: TrackAndTrace/Info.plist
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n<plist version=\"1.0\">\n<dict>\n\t<key>CFBundleDevelopmentRegion</key>\n\t<string>$(DEVELOPMENT_LANGUAGE)</string>\n\t<key>CFBundleExecutable</key>\n\t<string>$(EXECUTABLE_NAME)</string>\n\t<key>CFBundleIdentifier</key>\n\t<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>\n\t<key>CFBundleInfoDictionaryVersion</key>\n\t<string>6.0</string>\n\t<key>CFBundleName</key>\n\t<string>$(PRODUCT_NAME)</string>\n\t<key>CFBundlePackageType</key>\n\t<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>\n\t<key>CFBundleShortVersionString</key>\n\t<string>1.0</string>\n\t<key>CFBundleVersion</key>\n\t<string>1</string>\n\t<key>LSRequiresIPhoneOS</key>\n\t<true/>\n\t<key>UIApplicationSceneManifest</key>\n\t<dict>\n\t\t<key>UIApplicationSupportsMultipleScenes</key>\n\t\t<true/>\n\t</dict>\n\t<key>UIApplicationSupportsIndirectInputEvents</key>\n\t<true/>\n\t<key>UILaunchScreen</key>\n\t<dict/>\n\t<key>UIRequiredDeviceCapabilities</key>\n\t<array>\n\t\t<string>armv7</string>\n\t</array>\n\t<key>UISupportedInterfaceOrientations</key>\n\t<array>\n\t\t<string>UIInterfaceOrientationPortrait</string>\n\t\t<string>UIInterfaceOrientationLandscapeLeft</string>\n\t\t<string>UIInterfaceOrientationLandscapeRight</string>\n\t</array>\n\t<key>UISupportedInterfaceOrientations~ipad</key>\n\t<array>\n\t\t<string>UIInterfaceOrientationPortrait</string>\n\t\t<string>UIInterfaceOrientationPortraitUpsideDown</string>\n\t\t<string>UIInterfaceOrientationLandscapeLeft</string>\n\t\t<string>UIInterfaceOrientationLandscapeRight</string>\n\t</array>\n</dict>\n</plist>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- TrackAndTrace/Info.plist	(revision 22bc916966d414354ffbebc47fc9b3edd368eb45)
++++ TrackAndTrace/Info.plist	(date 1602803346618)
+@@ -46,5 +46,9 @@
+ 		<string>UIInterfaceOrientationLandscapeLeft</string>
+ 		<string>UIInterfaceOrientationLandscapeRight</string>
+ 	</array>
++	<key>UIAppFonts</key>
++	<array>
++		<string>Lato-Bold.tff</string>
++	</array>
+ </dict>
+ </plist>
+Index: TrackAndTrace/Assets.xcassets/Blue.colorset/Contents.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- TrackAndTrace/Assets.xcassets/Blue.colorset/Contents.json	(date 1602804920044)
++++ TrackAndTrace/Assets.xcassets/Blue.colorset/Contents.json	(date 1602804920044)
+@@ -0,0 +1,20 @@
++{
++  "colors" : [
++    {
++      "color" : {
++        "color-space" : "srgb",
++        "components" : {
++          "alpha" : "1.000",
++          "blue" : "0xF4",
++          "green" : "0x86",
++          "red" : "0x42"
++        }
++      },
++      "idiom" : "universal"
++    }
++  ],
++  "info" : {
++    "author" : "xcode",
++    "version" : 1
++  }
++}
+Index: TrackAndTrace.xcodeproj/project.pbxproj
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>// !$*UTF8*$!\n{\n\tarchiveVersion = 1;\n\tclasses = {\n\t};\n\tobjectVersion = 50;\n\tobjects = {\n\n/* Begin PBXBuildFile section */\n\t\t862F58182538F368003693B3 /* TrackAndTraceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862F58172538F368003693B3 /* TrackAndTraceApp.swift */; };\n\t\t862F581A2538F368003693B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862F58192538F368003693B3 /* ContentView.swift */; };\n\t\t862F581C2538F36B003693B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862F581B2538F36B003693B3 /* Assets.xcassets */; };\n\t\t862F581F2538F36B003693B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862F581E2538F36B003693B3 /* Preview Assets.xcassets */; };\n/* End PBXBuildFile section */\n\n/* Begin PBXFileReference section */\n\t\t862F58142538F368003693B3 /* TrackAndTrace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackAndTrace.app; sourceTree = BUILT_PRODUCTS_DIR; };\n\t\t862F58172538F368003693B3 /* TrackAndTraceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackAndTraceApp.swift; sourceTree = \"<group>\"; };\n\t\t862F58192538F368003693B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = \"<group>\"; };\n\t\t862F581B2538F36B003693B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = \"<group>\"; };\n\t\t862F581E2538F36B003693B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = \"Preview Assets.xcassets\"; sourceTree = \"<group>\"; };\n\t\t862F58202538F36B003693B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = \"<group>\"; };\n/* End PBXFileReference section */\n\n/* Begin PBXFrameworksBuildPhase section */\n\t\t862F58112538F368003693B3 /* Frameworks */ = {\n\t\t\tisa = PBXFrameworksBuildPhase;\n\t\t\tbuildActionMask = 2147483647;\n\t\t\tfiles = (\n\t\t\t);\n\t\t\trunOnlyForDeploymentPostprocessing = 0;\n\t\t};\n/* End PBXFrameworksBuildPhase section */\n\n/* Begin PBXGroup section */\n\t\t862F580B2538F368003693B3 = {\n\t\t\tisa = PBXGroup;\n\t\t\tchildren = (\n\t\t\t\t862F58162538F368003693B3 /* TrackAndTrace */,\n\t\t\t\t862F58152538F368003693B3 /* Products */,\n\t\t\t);\n\t\t\tsourceTree = \"<group>\";\n\t\t};\n\t\t862F58152538F368003693B3 /* Products */ = {\n\t\t\tisa = PBXGroup;\n\t\t\tchildren = (\n\t\t\t\t862F58142538F368003693B3 /* TrackAndTrace.app */,\n\t\t\t);\n\t\t\tname = Products;\n\t\t\tsourceTree = \"<group>\";\n\t\t};\n\t\t862F58162538F368003693B3 /* TrackAndTrace */ = {\n\t\t\tisa = PBXGroup;\n\t\t\tchildren = (\n\t\t\t\t862F58172538F368003693B3 /* TrackAndTraceApp.swift */,\n\t\t\t\t862F58192538F368003693B3 /* ContentView.swift */,\n\t\t\t\t862F581B2538F36B003693B3 /* Assets.xcassets */,\n\t\t\t\t862F58202538F36B003693B3 /* Info.plist */,\n\t\t\t\t862F581D2538F36B003693B3 /* Preview Content */,\n\t\t\t);\n\t\t\tpath = TrackAndTrace;\n\t\t\tsourceTree = \"<group>\";\n\t\t};\n\t\t862F581D2538F36B003693B3 /* Preview Content */ = {\n\t\t\tisa = PBXGroup;\n\t\t\tchildren = (\n\t\t\t\t862F581E2538F36B003693B3 /* Preview Assets.xcassets */,\n\t\t\t);\n\t\t\tpath = \"Preview Content\";\n\t\t\tsourceTree = \"<group>\";\n\t\t};\n/* End PBXGroup section */\n\n/* Begin PBXNativeTarget section */\n\t\t862F58132538F368003693B3 /* TrackAndTrace */ = {\n\t\t\tisa = PBXNativeTarget;\n\t\t\tbuildConfigurationList = 862F58232538F36B003693B3 /* Build configuration list for PBXNativeTarget \"TrackAndTrace\" */;\n\t\t\tbuildPhases = (\n\t\t\t\t862F58102538F368003693B3 /* Sources */,\n\t\t\t\t862F58112538F368003693B3 /* Frameworks */,\n\t\t\t\t862F58122538F368003693B3 /* Resources */,\n\t\t\t);\n\t\t\tbuildRules = (\n\t\t\t);\n\t\t\tdependencies = (\n\t\t\t);\n\t\t\tname = TrackAndTrace;\n\t\t\tproductName = TrackAndTrace;\n\t\t\tproductReference = 862F58142538F368003693B3 /* TrackAndTrace.app */;\n\t\t\tproductType = \"com.apple.product-type.application\";\n\t\t};\n/* End PBXNativeTarget section */\n\n/* Begin PBXProject section */\n\t\t862F580C2538F368003693B3 /* Project object */ = {\n\t\t\tisa = PBXProject;\n\t\t\tattributes = {\n\t\t\t\tLastSwiftUpdateCheck = 1220;\n\t\t\t\tLastUpgradeCheck = 1220;\n\t\t\t\tTargetAttributes = {\n\t\t\t\t\t862F58132538F368003693B3 = {\n\t\t\t\t\t\tCreatedOnToolsVersion = 12.2;\n\t\t\t\t\t};\n\t\t\t\t};\n\t\t\t};\n\t\t\tbuildConfigurationList = 862F580F2538F368003693B3 /* Build configuration list for PBXProject \"TrackAndTrace\" */;\n\t\t\tcompatibilityVersion = \"Xcode 9.3\";\n\t\t\tdevelopmentRegion = en;\n\t\t\thasScannedForEncodings = 0;\n\t\t\tknownRegions = (\n\t\t\t\ten,\n\t\t\t\tBase,\n\t\t\t);\n\t\t\tmainGroup = 862F580B2538F368003693B3;\n\t\t\tproductRefGroup = 862F58152538F368003693B3 /* Products */;\n\t\t\tprojectDirPath = \"\";\n\t\t\tprojectRoot = \"\";\n\t\t\ttargets = (\n\t\t\t\t862F58132538F368003693B3 /* TrackAndTrace */,\n\t\t\t);\n\t\t};\n/* End PBXProject section */\n\n/* Begin PBXResourcesBuildPhase section */\n\t\t862F58122538F368003693B3 /* Resources */ = {\n\t\t\tisa = PBXResourcesBuildPhase;\n\t\t\tbuildActionMask = 2147483647;\n\t\t\tfiles = (\n\t\t\t\t862F581F2538F36B003693B3 /* Preview Assets.xcassets in Resources */,\n\t\t\t\t862F581C2538F36B003693B3 /* Assets.xcassets in Resources */,\n\t\t\t);\n\t\t\trunOnlyForDeploymentPostprocessing = 0;\n\t\t};\n/* End PBXResourcesBuildPhase section */\n\n/* Begin PBXSourcesBuildPhase section */\n\t\t862F58102538F368003693B3 /* Sources */ = {\n\t\t\tisa = PBXSourcesBuildPhase;\n\t\t\tbuildActionMask = 2147483647;\n\t\t\tfiles = (\n\t\t\t\t862F581A2538F368003693B3 /* ContentView.swift in Sources */,\n\t\t\t\t862F58182538F368003693B3 /* TrackAndTraceApp.swift in Sources */,\n\t\t\t);\n\t\t\trunOnlyForDeploymentPostprocessing = 0;\n\t\t};\n/* End PBXSourcesBuildPhase section */\n\n/* Begin XCBuildConfiguration section */\n\t\t862F58212538F36B003693B3 /* Debug */ = {\n\t\t\tisa = XCBuildConfiguration;\n\t\t\tbuildSettings = {\n\t\t\t\tALWAYS_SEARCH_USER_PATHS = NO;\n\t\t\t\tCLANG_ANALYZER_NONNULL = YES;\n\t\t\t\tCLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;\n\t\t\t\tCLANG_CXX_LANGUAGE_STANDARD = \"gnu++14\";\n\t\t\t\tCLANG_CXX_LIBRARY = \"libc++\";\n\t\t\t\tCLANG_ENABLE_MODULES = YES;\n\t\t\t\tCLANG_ENABLE_OBJC_ARC = YES;\n\t\t\t\tCLANG_ENABLE_OBJC_WEAK = YES;\n\t\t\t\tCLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;\n\t\t\t\tCLANG_WARN_BOOL_CONVERSION = YES;\n\t\t\t\tCLANG_WARN_COMMA = YES;\n\t\t\t\tCLANG_WARN_CONSTANT_CONVERSION = YES;\n\t\t\t\tCLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;\n\t\t\t\tCLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;\n\t\t\t\tCLANG_WARN_DOCUMENTATION_COMMENTS = YES;\n\t\t\t\tCLANG_WARN_EMPTY_BODY = YES;\n\t\t\t\tCLANG_WARN_ENUM_CONVERSION = YES;\n\t\t\t\tCLANG_WARN_INFINITE_RECURSION = YES;\n\t\t\t\tCLANG_WARN_INT_CONVERSION = YES;\n\t\t\t\tCLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;\n\t\t\t\tCLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;\n\t\t\t\tCLANG_WARN_OBJC_LITERAL_CONVERSION = YES;\n\t\t\t\tCLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;\n\t\t\t\tCLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;\n\t\t\t\tCLANG_WARN_RANGE_LOOP_ANALYSIS = YES;\n\t\t\t\tCLANG_WARN_STRICT_PROTOTYPES = YES;\n\t\t\t\tCLANG_WARN_SUSPICIOUS_MOVE = YES;\n\t\t\t\tCLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;\n\t\t\t\tCLANG_WARN_UNREACHABLE_CODE = YES;\n\t\t\t\tCLANG_WARN__DUPLICATE_METHOD_MATCH = YES;\n\t\t\t\tCOPY_PHASE_STRIP = NO;\n\t\t\t\tDEBUG_INFORMATION_FORMAT = dwarf;\n\t\t\t\tENABLE_STRICT_OBJC_MSGSEND = YES;\n\t\t\t\tENABLE_TESTABILITY = YES;\n\t\t\t\tGCC_C_LANGUAGE_STANDARD = gnu11;\n\t\t\t\tGCC_DYNAMIC_NO_PIC = NO;\n\t\t\t\tGCC_NO_COMMON_BLOCKS = YES;\n\t\t\t\tGCC_OPTIMIZATION_LEVEL = 0;\n\t\t\t\tGCC_PREPROCESSOR_DEFINITIONS = (\n\t\t\t\t\t\"DEBUG=1\",\n\t\t\t\t\t\"$(inherited)\",\n\t\t\t\t);\n\t\t\t\tGCC_WARN_64_TO_32_BIT_CONVERSION = YES;\n\t\t\t\tGCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;\n\t\t\t\tGCC_WARN_UNDECLARED_SELECTOR = YES;\n\t\t\t\tGCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;\n\t\t\t\tGCC_WARN_UNUSED_FUNCTION = YES;\n\t\t\t\tGCC_WARN_UNUSED_VARIABLE = YES;\n\t\t\t\tIPHONEOS_DEPLOYMENT_TARGET = 14.2;\n\t\t\t\tMTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;\n\t\t\t\tMTL_FAST_MATH = YES;\n\t\t\t\tONLY_ACTIVE_ARCH = YES;\n\t\t\t\tSDKROOT = iphoneos;\n\t\t\t\tSWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;\n\t\t\t\tSWIFT_OPTIMIZATION_LEVEL = \"-Onone\";\n\t\t\t};\n\t\t\tname = Debug;\n\t\t};\n\t\t862F58222538F36B003693B3 /* Release */ = {\n\t\t\tisa = XCBuildConfiguration;\n\t\t\tbuildSettings = {\n\t\t\t\tALWAYS_SEARCH_USER_PATHS = NO;\n\t\t\t\tCLANG_ANALYZER_NONNULL = YES;\n\t\t\t\tCLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;\n\t\t\t\tCLANG_CXX_LANGUAGE_STANDARD = \"gnu++14\";\n\t\t\t\tCLANG_CXX_LIBRARY = \"libc++\";\n\t\t\t\tCLANG_ENABLE_MODULES = YES;\n\t\t\t\tCLANG_ENABLE_OBJC_ARC = YES;\n\t\t\t\tCLANG_ENABLE_OBJC_WEAK = YES;\n\t\t\t\tCLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;\n\t\t\t\tCLANG_WARN_BOOL_CONVERSION = YES;\n\t\t\t\tCLANG_WARN_COMMA = YES;\n\t\t\t\tCLANG_WARN_CONSTANT_CONVERSION = YES;\n\t\t\t\tCLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;\n\t\t\t\tCLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;\n\t\t\t\tCLANG_WARN_DOCUMENTATION_COMMENTS = YES;\n\t\t\t\tCLANG_WARN_EMPTY_BODY = YES;\n\t\t\t\tCLANG_WARN_ENUM_CONVERSION = YES;\n\t\t\t\tCLANG_WARN_INFINITE_RECURSION = YES;\n\t\t\t\tCLANG_WARN_INT_CONVERSION = YES;\n\t\t\t\tCLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;\n\t\t\t\tCLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;\n\t\t\t\tCLANG_WARN_OBJC_LITERAL_CONVERSION = YES;\n\t\t\t\tCLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;\n\t\t\t\tCLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;\n\t\t\t\tCLANG_WARN_RANGE_LOOP_ANALYSIS = YES;\n\t\t\t\tCLANG_WARN_STRICT_PROTOTYPES = YES;\n\t\t\t\tCLANG_WARN_SUSPICIOUS_MOVE = YES;\n\t\t\t\tCLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;\n\t\t\t\tCLANG_WARN_UNREACHABLE_CODE = YES;\n\t\t\t\tCLANG_WARN__DUPLICATE_METHOD_MATCH = YES;\n\t\t\t\tCOPY_PHASE_STRIP = NO;\n\t\t\t\tDEBUG_INFORMATION_FORMAT = \"dwarf-with-dsym\";\n\t\t\t\tENABLE_NS_ASSERTIONS = NO;\n\t\t\t\tENABLE_STRICT_OBJC_MSGSEND = YES;\n\t\t\t\tGCC_C_LANGUAGE_STANDARD = gnu11;\n\t\t\t\tGCC_NO_COMMON_BLOCKS = YES;\n\t\t\t\tGCC_WARN_64_TO_32_BIT_CONVERSION = YES;\n\t\t\t\tGCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;\n\t\t\t\tGCC_WARN_UNDECLARED_SELECTOR = YES;\n\t\t\t\tGCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;\n\t\t\t\tGCC_WARN_UNUSED_FUNCTION = YES;\n\t\t\t\tGCC_WARN_UNUSED_VARIABLE = YES;\n\t\t\t\tIPHONEOS_DEPLOYMENT_TARGET = 14.2;\n\t\t\t\tMTL_ENABLE_DEBUG_INFO = NO;\n\t\t\t\tMTL_FAST_MATH = YES;\n\t\t\t\tSDKROOT = iphoneos;\n\t\t\t\tSWIFT_COMPILATION_MODE = wholemodule;\n\t\t\t\tSWIFT_OPTIMIZATION_LEVEL = \"-O\";\n\t\t\t\tVALIDATE_PRODUCT = YES;\n\t\t\t};\n\t\t\tname = Release;\n\t\t};\n\t\t862F58242538F36B003693B3 /* Debug */ = {\n\t\t\tisa = XCBuildConfiguration;\n\t\t\tbuildSettings = {\n\t\t\t\tASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;\n\t\t\t\tASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;\n\t\t\t\tCODE_SIGN_STYLE = Automatic;\n\t\t\t\tDEVELOPMENT_ASSET_PATHS = \"\\\"TrackAndTrace/Preview Content\\\"\";\n\t\t\t\tDEVELOPMENT_TEAM = 59D6M2U7SH;\n\t\t\t\tENABLE_PREVIEWS = YES;\n\t\t\t\tINFOPLIST_FILE = TrackAndTrace/Info.plist;\n\t\t\t\tIPHONEOS_DEPLOYMENT_TARGET = 14.0;\n\t\t\t\tLD_RUNPATH_SEARCH_PATHS = (\n\t\t\t\t\t\"$(inherited)\",\n\t\t\t\t\t\"@executable_path/Frameworks\",\n\t\t\t\t);\n\t\t\t\tPRODUCT_BUNDLE_IDENTIFIER = com.jlange.TrackAndTrace;\n\t\t\t\tPRODUCT_NAME = \"$(TARGET_NAME)\";\n\t\t\t\tSWIFT_VERSION = 5.0;\n\t\t\t\tTARGETED_DEVICE_FAMILY = \"1,2\";\n\t\t\t};\n\t\t\tname = Debug;\n\t\t};\n\t\t862F58252538F36B003693B3 /* Release */ = {\n\t\t\tisa = XCBuildConfiguration;\n\t\t\tbuildSettings = {\n\t\t\t\tASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;\n\t\t\t\tASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;\n\t\t\t\tCODE_SIGN_STYLE = Automatic;\n\t\t\t\tDEVELOPMENT_ASSET_PATHS = \"\\\"TrackAndTrace/Preview Content\\\"\";\n\t\t\t\tDEVELOPMENT_TEAM = 59D6M2U7SH;\n\t\t\t\tENABLE_PREVIEWS = YES;\n\t\t\t\tINFOPLIST_FILE = TrackAndTrace/Info.plist;\n\t\t\t\tIPHONEOS_DEPLOYMENT_TARGET = 14.0;\n\t\t\t\tLD_RUNPATH_SEARCH_PATHS = (\n\t\t\t\t\t\"$(inherited)\",\n\t\t\t\t\t\"@executable_path/Frameworks\",\n\t\t\t\t);\n\t\t\t\tPRODUCT_BUNDLE_IDENTIFIER = com.jlange.TrackAndTrace;\n\t\t\t\tPRODUCT_NAME = \"$(TARGET_NAME)\";\n\t\t\t\tSWIFT_VERSION = 5.0;\n\t\t\t\tTARGETED_DEVICE_FAMILY = \"1,2\";\n\t\t\t};\n\t\t\tname = Release;\n\t\t};\n/* End XCBuildConfiguration section */\n\n/* Begin XCConfigurationList section */\n\t\t862F580F2538F368003693B3 /* Build configuration list for PBXProject \"TrackAndTrace\" */ = {\n\t\t\tisa = XCConfigurationList;\n\t\t\tbuildConfigurations = (\n\t\t\t\t862F58212538F36B003693B3 /* Debug */,\n\t\t\t\t862F58222538F36B003693B3 /* Release */,\n\t\t\t);\n\t\t\tdefaultConfigurationIsVisible = 0;\n\t\t\tdefaultConfigurationName = Release;\n\t\t};\n\t\t862F58232538F36B003693B3 /* Build configuration list for PBXNativeTarget \"TrackAndTrace\" */ = {\n\t\t\tisa = XCConfigurationList;\n\t\t\tbuildConfigurations = (\n\t\t\t\t862F58242538F36B003693B3 /* Debug */,\n\t\t\t\t862F58252538F36B003693B3 /* Release */,\n\t\t\t);\n\t\t\tdefaultConfigurationIsVisible = 0;\n\t\t\tdefaultConfigurationName = Release;\n\t\t};\n/* End XCConfigurationList section */\n\t};\n\trootObject = 862F580C2538F368003693B3 /* Project object */;\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- TrackAndTrace.xcodeproj/project.pbxproj	(revision 22bc916966d414354ffbebc47fc9b3edd368eb45)
++++ TrackAndTrace.xcodeproj/project.pbxproj	(date 1602873140379)
+@@ -8,18 +8,18 @@
+ 
+ /* Begin PBXBuildFile section */
+ 		862F58182538F368003693B3 /* TrackAndTraceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862F58172538F368003693B3 /* TrackAndTraceApp.swift */; };
+-		862F581A2538F368003693B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862F58192538F368003693B3 /* ContentView.swift */; };
+ 		862F581C2538F36B003693B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862F581B2538F36B003693B3 /* Assets.xcassets */; };
+ 		862F581F2538F36B003693B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862F581E2538F36B003693B3 /* Preview Assets.xcassets */; };
++		BB01520AF8CF4BC5A698424D /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB015CCC6668223B558A2902 /* StartView.swift */; };
+ /* End PBXBuildFile section */
+ 
+ /* Begin PBXFileReference section */
+ 		862F58142538F368003693B3 /* TrackAndTrace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackAndTrace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+ 		862F58172538F368003693B3 /* TrackAndTraceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackAndTraceApp.swift; sourceTree = "<group>"; };
+-		862F58192538F368003693B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+ 		862F581B2538F36B003693B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+ 		862F581E2538F36B003693B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+ 		862F58202538F36B003693B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
++		BB015CCC6668223B558A2902 /* StartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+ /* End PBXFileReference section */
+ 
+ /* Begin PBXFrameworksBuildPhase section */
+@@ -53,10 +53,10 @@
+ 			isa = PBXGroup;
+ 			children = (
+ 				862F58172538F368003693B3 /* TrackAndTraceApp.swift */,
+-				862F58192538F368003693B3 /* ContentView.swift */,
+ 				862F581B2538F36B003693B3 /* Assets.xcassets */,
+ 				862F58202538F36B003693B3 /* Info.plist */,
+ 				862F581D2538F36B003693B3 /* Preview Content */,
++				BB015BC5E520010269FAB0F1 /* Views */,
+ 			);
+ 			path = TrackAndTrace;
+ 			sourceTree = "<group>";
+@@ -69,6 +69,14 @@
+ 			path = "Preview Content";
+ 			sourceTree = "<group>";
+ 		};
++		BB015BC5E520010269FAB0F1 /* Views */ = {
++			isa = PBXGroup;
++			children = (
++				BB015CCC6668223B558A2902 /* StartView.swift */,
++			);
++			path = Views;
++			sourceTree = "<group>";
++		};
+ /* End PBXGroup section */
+ 
+ /* Begin PBXNativeTarget section */
+@@ -138,8 +146,8 @@
+ 			isa = PBXSourcesBuildPhase;
+ 			buildActionMask = 2147483647;
+ 			files = (
+-				862F581A2538F368003693B3 /* ContentView.swift in Sources */,
+ 				862F58182538F368003693B3 /* TrackAndTraceApp.swift in Sources */,
++				BB01520AF8CF4BC5A698424D /* StartView.swift in Sources */,
+ 			);
+ 			runOnlyForDeploymentPostprocessing = 0;
+ 		};
+Index: TrackAndTrace.xcodeproj/xcuserdata/jlange.xcuserdatad/xcschemes/TrackAndTrace.xcscheme
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- TrackAndTrace.xcodeproj/xcuserdata/jlange.xcuserdatad/xcschemes/TrackAndTrace.xcscheme	(date 1602799779179)
++++ TrackAndTrace.xcodeproj/xcuserdata/jlange.xcuserdatad/xcschemes/TrackAndTrace.xcscheme	(date 1602799779179)
+@@ -0,0 +1,32 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<Scheme
++   version = "1.3">
++   <BuildAction>
++      <BuildActionEntries>
++         <BuildActionEntry
++            buildForRunning = "YES">
++            <BuildableReference
++               BuildableIdentifier = "primary"
++               BlueprintIdentifier = "862F58132538F368003693B3"
++               BuildableName = "TrackAndTrace.app"
++               BlueprintName = "TrackAndTrace"
++               ReferencedContainer = "container:TrackAndTrace.xcodeproj">
++            </BuildableReference>
++         </BuildActionEntry>
++      </BuildActionEntries>
++   </BuildAction>
++   <LaunchAction
++      useCustomWorkingDirectory = "NO"
++      buildConfiguration = "Debug"
++      allowLocationSimulation = "YES">
++      <BuildableProductRunnable>
++         <BuildableReference
++            BuildableIdentifier = "primary"
++            BlueprintIdentifier = "862F58132538F368003693B3"
++            BuildableName = "TrackAndTrace.app"
++            BlueprintName = "TrackAndTrace"
++            ReferencedContainer = "container:TrackAndTrace.xcodeproj">
++         </BuildableReference>
++      </BuildableProductRunnable>
++   </LaunchAction>
++</Scheme>
+Index: .idea/TrackAndTrace.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/TrackAndTrace.iml	(date 1602799778632)
++++ .idea/TrackAndTrace.iml	(date 1602799778632)
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module classpath="AppCode" type="CIDR_MODULE" version="4" />
+\ No newline at end of file
