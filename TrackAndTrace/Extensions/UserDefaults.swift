@@ -44,4 +44,12 @@ extension UserDefaults {
     func getSurname() -> String {
         return string(forKey: UserDefaultsKeys.surname.rawValue) ?? "unknown"
     }
+
+    func setUniversityName(value: String) {
+        set(value, forKey: UserDefaultsKeys.university_name.rawValue)
+    }
+
+    func getUniversityName() -> String {
+        return string(forKey: UserDefaultsKeys.university_name.rawValue) ?? "unknown"
+    }
 }

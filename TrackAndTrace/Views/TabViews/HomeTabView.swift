@@ -14,10 +14,19 @@ struct HomeTabView: View {
 
 
     // status message
-    @State var statusMessageBackground: Color = Color.red
+    /*@State var statusMessageBackground: Color = Color.red
     @State var statusMessageForeground: Color = .white
     @State var statusMessageTitle: String = "High Risk"
-    @State var statusMessageContent: String = "We do not recommend on campus lectures"
+    @State var statusMessageContent: String = "We do not recommend on campus lectures"*/
+    /*@State var statusMessageBackground: Color = Color.orange
+    @State var statusMessageForeground: Color = .white
+    @State var statusMessageTitle: String = "Medium Risk"
+    @State var statusMessageContent: String = "We do not recommend too much on campus activity"*/
+
+    @State var statusMessageBackground: Color = Color.green
+    @State var statusMessageForeground: Color = .white
+    @State var statusMessageTitle: String = "No Risk"
+    @State var statusMessageContent: String = "There is almost no risk in attending on campus lectures"
 
     var body: some View {
         VStack() {
@@ -39,16 +48,19 @@ struct HomeTabView: View {
                                 .padding(.top, 20).foregroundColor(.blue)
                     }
                 }
-                Text("Welcome back, \(UserDefaults.standard.getFirstName()) \(UserDefaults.standard.getSurname())")
-                        .font(.system(size: 25, weight: .light, design: .rounded))
+                Text("Howdy, \(UserDefaults.standard.getFirstName())! 👋")
+                        .font(.system(size: 25, weight: .regular, design: .rounded))
                         .padding(.top, -10)
                         .padding(.bottom, 10)
             }
         }.padding().frame(width: 400, alignment: .topLeading)
         ScrollView {
+            Text("\(UserDefaults.standard.getUniversityName())")
+                    .font(.system(size: 25, weight: .semibold, design: .rounded))
+                    .padding(.top, 20).multilineTextAlignment(.center)
             VStack(alignment: .leading, spacing: 25) {
                 HStack {
-                    Text(self.statusMessageTitle).font(.system(size: 30, weight: .bold, design: .rounded))
+                    Text(self.statusMessageTitle).font(.system(size: 30, weight: .bold, design: .rounded)).multilineTextAlignment(.center)
                     Text(self.statusMessageContent).font(.system(size: 23, weight: .regular, design: .rounded)).padding(.leading, 10).multilineTextAlignment(.center)
                     Spacer()
                 }
@@ -58,7 +70,7 @@ struct HomeTabView: View {
             }.frame(minWidth: 0, maxWidth: .infinity)
                     .background(self.statusMessageBackground)
                     .cornerRadius(7)
-                    .padding(.top, 10)
+                    .padding(.top, 5)
                     .padding(.horizontal, 24)
             Text("There are no other updates  ✅").multilineTextAlignment(.center).padding(.top, 20).font(.system(size: 20, weight: .medium, design: .default))
             Spacer()

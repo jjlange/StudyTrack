@@ -35,6 +35,7 @@ public class Communication {
                 UserDefaults.standard.setEmail(value: (json?["email"].string)!)
                 UserDefaults.standard.setFirstName(value: (json?["first_name"].string)!)
                 UserDefaults.standard.setSurname(value: (json?["surname"].string)!)
+                UserDefaults.standard.setUniversityName(value: (json?["university_name"].string)!)
             }
 
             completion(user, success)

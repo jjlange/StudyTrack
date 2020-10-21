@@ -21,11 +21,11 @@ struct SettingsTabView: View {
                                 .padding(.top, 20)
                     }
                 }
-
-                Text("All of your preferences in one page")
+                Text("\(UserDefaults.standard.getFirstName()) \(UserDefaults.standard.getSurname())")
+                        .font(.system(size: 30, weight: .semibold, design: .rounded))
+                        .padding(.top, 10)
+                Text("\(UserDefaults.standard.getEmail()) \n\(UserDefaults.standard.getUniversityName())")
                         .font(.system(size: 25, weight: .light, design: .rounded))
-                        .padding(.top, -10)
-                        .padding(.bottom, 10)
             }
         }.padding().frame(width: 400, alignment: .topLeading)
         Spacer()

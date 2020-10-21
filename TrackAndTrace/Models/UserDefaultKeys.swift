@@ -8,4 +8,5 @@ enum UserDefaultsKeys : String {
     case email
     case first_name
     case surname
+    case university_name
 }
