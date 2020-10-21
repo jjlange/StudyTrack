@@ -11,7 +11,15 @@ import SwiftUI
 struct TrackAndTraceApp: App {
     var body: some Scene {
         WindowGroup {
-            StartView()
+            if(UserDefaults.standard.isLoggedIn() == true) {
+                NavigationView {
+                    HomeView()
+                }
+            } else {
+                NavigationView {
+                    GettingStartedView()
+                }
+            }
         }
     }
 }

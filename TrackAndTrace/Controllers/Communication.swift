@@ -5,8 +5,8 @@
 import Alamofire
 import SwiftyJSON
 
-public class SignIn {
-    public func login(email: String, password: String, completion: @escaping (_ user: User?,_ success: Bool?) -> Void) -> User {
+public class Communication {
+    public func doLogin(email: String, password: String, completion: @escaping (_ user: User?,_ success: Bool?) -> Void) -> User {
         var user : User? = nil
         var success = true
 
@@ -27,9 +27,16 @@ public class SignIn {
             if (json?["error"].bool) == true {
                 success = false
             } else {
+                // set up user session
                 user = User(id: (json?["user_id"].int)!, email: (json?["email"].string)!)
-                success = true
+
+                UserDefaults.standard.setLoggedIn(value: true)
+                UserDefaults.standard.setUserID(value: (json?["user_id"].int)!)
+                UserDefaults.standard.setEmail(value: (json?["email"].string)!)
+                UserDefaults.standard.setFirstName(value: (json?["first_name"].string)!)
+                UserDefaults.standard.setSurname(value: (json?["surname"].string)!)
             }
+
             completion(user, success)
         }
 

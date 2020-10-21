@@ -9,7 +9,6 @@ import SwiftUI
 
 struct StartView: View {
     var body: some View {
-        NavigationView {
             VStack {
                 Image("start_image_view").resizable()
                         .frame(height: 250.0, alignment: .top).ignoresSafeArea().padding(.top, -50)
@@ -48,7 +47,6 @@ struct StartView: View {
                 Text("Copyright © 2020, created by students.\nVersion: 1.0.0").foregroundColor(Color("Gray")).padding(.top, 40).font(.body).multilineTextAlignment(.center)
                 Spacer()
             }.navigationBarHidden(true)
-        }
     }
 }
 

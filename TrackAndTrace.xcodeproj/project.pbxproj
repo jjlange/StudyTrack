@@ -16,11 +16,13 @@
 		BB0153A58296DF5F8095840A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0150067D775033C8A6F429 /* HomeView.swift */; };
 		BB015412A01316A2653052C7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0159D8708B9000FC0FCE0C /* LoginView.swift */; };
 		BB01558E800264CC377B6067 /* ALoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0154EA3BE59B77FD808D84 /* ALoginView.swift */; };
-		BB01565A4DE12698D91620FE /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB015EEBD4D37C55411C3F41 /* SignInController.swift */; };
+		BB01565A4DE12698D91620FE /* Communication.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB015EEBD4D37C55411C3F41 /* Communication.swift */; };
 		BB0156F8459E858D9F1F1A94 /* SettingsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB015ECF0A0304BA4026F7A3 /* SettingsTabView.swift */; };
 		BB0158977F3E53AABFA7E0FF /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0159DC382FB13F945095C0 /* HomeTabView.swift */; };
 		BB015A9401464A9167A50175 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB015695D958294003ED162B /* Server.swift */; };
 		BB015D502B90190D545A67D9 /* GettingStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0154071C6129D17DC280E0 /* GettingStartedView.swift */; };
+		BB015DC822B8AFA6F81E4389 /* UserDefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB015DAE60894FE0B0864E89 /* UserDefaultKeys.swift */; };
+		BB015EBEDF46C98745499C02 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB01523065BA075BC13FE682 /* UserDefaults.swift */; };
 		BB015F4F124566C44C6E7B44 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB01507A2A48F245B91BA438 /* User.swift */; };
 		F85B7F689D108E4A8A02DF55 /* Pods_TrackAndTrace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9591F4F3241310BC7DE6487A /* Pods_TrackAndTrace.framework */; };
 /* End PBXBuildFile section */
@@ -38,14 +40,16 @@
 		9AA0D8DE024AE80F2F90858E /* Pods-TrackAndTrace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackAndTrace.debug.xcconfig"; path = "Target Support Files/Pods-TrackAndTrace/Pods-TrackAndTrace.debug.xcconfig"; sourceTree = "<group>"; };
 		BB0150067D775033C8A6F429 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		BB01507A2A48F245B91BA438 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BB01523065BA075BC13FE682 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 		BB0154071C6129D17DC280E0 /* GettingStartedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GettingStartedView.swift; sourceTree = "<group>"; };
 		BB0154EA3BE59B77FD808D84 /* ALoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALoginView.swift; sourceTree = "<group>"; };
 		BB015695D958294003ED162B /* Server.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
 		BB0159D8708B9000FC0FCE0C /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = Pods/LoginView.swift; sourceTree = SOURCE_ROOT; };
 		BB0159DC382FB13F945095C0 /* HomeTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
 		BB015CCC6668223B558A2902 /* StartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		BB015DAE60894FE0B0864E89 /* UserDefaultKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultKeys.swift; sourceTree = "<group>"; };
 		BB015ECF0A0304BA4026F7A3 /* SettingsTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTabView.swift; sourceTree = "<group>"; };
-		BB015EEBD4D37C55411C3F41 /* SignInController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
+		BB015EEBD4D37C55411C3F41 /* Communication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Communication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 				BB015695D958294003ED162B /* Server.swift */,
 				BB01576AC1188FB3B00C51FE /* Controllers */,
 				BB015269796440F753F20B35 /* Models */,
+				BB0159F221DB5FE13B95DCC8 /* Extensions */,
 			);
 			path = TrackAndTrace;
 			sourceTree = "<group>";
@@ -127,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				BB01507A2A48F245B91BA438 /* User.swift */,
+				BB015DAE60894FE0B0864E89 /* UserDefaultKeys.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -134,9 +140,17 @@
 		BB01576AC1188FB3B00C51FE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				BB015EEBD4D37C55411C3F41 /* SignInController.swift */,
+				BB015EEBD4D37C55411C3F41 /* Communication.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BB0159F221DB5FE13B95DCC8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BB01523065BA075BC13FE682 /* UserDefaults.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		BB015BC5E520010269FAB0F1 /* Views */ = {
@@ -286,12 +300,14 @@
 				BB015D502B90190D545A67D9 /* GettingStartedView.swift in Sources */,
 				BB01558E800264CC377B6067 /* ALoginView.swift in Sources */,
 				BB015A9401464A9167A50175 /* Server.swift in Sources */,
-				BB01565A4DE12698D91620FE /* SignInController.swift in Sources */,
+				BB01565A4DE12698D91620FE /* Communication.swift in Sources */,
 				BB015412A01316A2653052C7 /* LoginView.swift in Sources */,
 				BB015F4F124566C44C6E7B44 /* User.swift in Sources */,
 				BB0153A58296DF5F8095840A /* HomeView.swift in Sources */,
 				BB0158977F3E53AABFA7E0FF /* HomeTabView.swift in Sources */,
 				BB0156F8459E858D9F1F1A94 /* SettingsTabView.swift in Sources */,
+				BB015EBEDF46C98745499C02 /* UserDefaults.swift in Sources */,
+				BB015DC822B8AFA6F81E4389 /* UserDefaultKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

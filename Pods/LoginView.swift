@@ -7,12 +7,12 @@ import SwiftUI
 struct LoginView: View {
 
     // states
-    @State var email: String = "test@test.com"
-    @State var password: String = "test"
+    @State var email: String = ""
+    @State var password: String = ""
     @State var titleLabel: String = "Welcome back  👋"
     @State private var pushHomeView = false
 
-    let controller = SignIn()
+    let controller = Communication()
 
     var body: some View {
         VStack {
@@ -32,10 +32,9 @@ struct LoginView: View {
                         print("[TrackAndTrace]: UserService -> Logging in...")
 
                         // try to log in user
-                        self.controller.login(email: self.email, password: self.password, completion: {(user, success)-> Void in
+                        self.controller.doLogin(email: self.email, password: self.password, completion: {(user, success)-> Void in
                             if(success!) {
                                 // push home view
-                                //self.titleLabel = "You're logged in as: " + user!.email
                                 self.pushHomeView = true
                             } else {
                                 // throw error message, maybe show an alert?
