@@ -6,7 +6,7 @@ You can find the actual written source code for the iOS (& maybe macOS applicati
 
 ## How do I run this app?  &nbsp; ▶️
 ### You will need a device running macOS Catalina or Big Sur!
-Download XCode from the Mac App Store & this project from GitHub. Make sure you're running the backend server first and then open the Xcode .workspace file.
+Download XCode from the Mac App Store & this project from GitHub. Make sure you're running the backend server first and then open the Xcode .xcworkspace file.
 Edit the file 'Server.swift' (in the 'TrackAndTrace' root directory) and change the variable 'serverURL' to your local IP or remote server IP.
 Plug in your phone (or choose a simulator) and click on the play button (top left menu bar)
 
