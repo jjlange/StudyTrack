@@ -10,6 +10,10 @@ Download XCode from the Mac App Store & this project from GitHub. Make sure you'
 Edit the file 'Server.swift' (in the 'TrackAndTrace' root directory) and change the variable 'serverURL' to your local IP or remote server IP.
 Plug in your phone (or choose a simulator) and click on the play button (top left menu bar)
 
+## What about iPad?&nbsp; 💖
+#### You should be able to run the app on all iPads running iPadOS 14.
+#### Note: Make sure you tick the checkbox 'iPad' in your Xcode project settings.
+
 ## Does it run on Mac and the Apple Watch too?&nbsp; 🖥 &nbsp;⌚️
 #### We haven't tried that yet. Though since it's written in SwiftUI, it might run on macOS with some small tweaks!
 #### You won't be able to run it on an Apple Watch yet, since watchOS is using different UI components. This might change in the future.
