@@ -6,11 +6,11 @@ import Alamofire
 import SwiftyJSON
 
 public class SignIn {
-    public func login(username: String, password: String, completion: @escaping (_ user: User?,_ success: Bool?) -> Void) -> User {
+    public func login(email: String, password: String, completion: @escaping (_ user: User?,_ success: Bool?) -> Void) -> User {
         var user : User? = nil
         var success = true
 
-        let parameters  = ["username": username, "password": password]
+        let parameters  = ["email": email, "password": password]
         let header : HTTPHeaders = ["Content-Type": "application/x-www-form-urlencoded"]
 
         AF.request(serverURL, method: .post, parameters: parameters, headers: header).responseData { response in

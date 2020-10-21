@@ -7,9 +7,11 @@ import SwiftUI
 struct LoginView: View {
 
     // states
-    @State var email: String = ""
-    @State var password: String = ""
+    @State var email: String = "test@test.com"
+    @State var password: String = "test"
     @State var titleLabel: String = "Welcome back  👋"
+    @State private var pushHomeView = false
+
     let controller = SignIn()
 
     var body: some View {
@@ -30,13 +32,14 @@ struct LoginView: View {
                         print("[TrackAndTrace]: UserService -> Logging in...")
 
                         // try to log in user
-                        self.controller.login(username: self.email, password: self.password, completion: {(user, success)-> Void in
+                        self.controller.login(email: self.email, password: self.password, completion: {(user, success)-> Void in
                             if(success!) {
                                 // push home view
-                                self.titleLabel = user!.email
+                                //self.titleLabel = "You're logged in as: " + user!.email
+                                self.pushHomeView = true
                             } else {
-                                // throw error message
-                                self.titleLabel = "Try it again."
+                                // throw error message, maybe show an alert?
+                                self.titleLabel = "Enter a valid email address or password"
                             }
                         })
                     }) {
@@ -57,6 +60,7 @@ struct LoginView: View {
                 }.padding().frame(width: 400, alignment: .topLeading)
             }.padding(.top, -50).padding(.bottom, 50)
             Spacer()
+            NavigationLink("", destination: HomeView(), isActive: $pushHomeView).hidden()
         }.navigationBarHidden(true)
     }
 }
