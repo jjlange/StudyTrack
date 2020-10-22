@@ -1,4 +1,4 @@
-# Welcome to Track and Trace  📱
+# Welcome to StudyTrack  📱
 Source code of the Track &amp; trace app for universities. Project for the Programming Society - Hackathon by the University of Westminster
 
 ## Main source code  &nbsp; 🛠
