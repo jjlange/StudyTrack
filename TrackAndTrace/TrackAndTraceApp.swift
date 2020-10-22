@@ -17,7 +17,7 @@ struct TrackAndTraceApp: App {
                 }
             } else {
                 NavigationView {
-                    GettingStartedView()
+                    StartView()
                 }
             }
         }

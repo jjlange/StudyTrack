@@ -14,7 +14,7 @@ struct ALoginView: View {
                 VStack(alignment: .leading) {
                     Text("Administrator")
                             .font(.system(size: 34, weight: .bold, design: .rounded)).padding(.top, 20).padding(.bottom, 20)
-                    Text("Register your university")
+                    Text("Register your university to the StudyTrack program.")
                             .font(.system(size: 32, weight: .semibold, design: .rounded))
                 }.padding().frame(width: 400, alignment: .topLeading)
             }.padding(.top, -50).padding(.bottom, 50)

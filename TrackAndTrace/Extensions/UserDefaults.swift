@@ -52,4 +52,12 @@ extension UserDefaults {
     func getUniversityName() -> String {
         return string(forKey: UserDefaultsKeys.university_name.rawValue) ?? "unknown"
     }
+
+    func setRiskLevel(value: Int) {
+        set(value, forKey: UserDefaultsKeys.risk_level.rawValue)
+    }
+
+    func getRiskLevel() -> Int {
+        return integer(forKey: UserDefaultsKeys.risk_level.rawValue)
+    }
 }

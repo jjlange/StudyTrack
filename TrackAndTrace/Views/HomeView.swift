@@ -19,14 +19,28 @@ struct HomeView: View {
             VStack {
                 HomeTabView()
             }.navigationBarHidden(true).tabItem {
-                Image(systemName: "house")
-                Text("Home")
+                Image(systemName: "heart.fill")
+                Text("Track & Home")
+            }
+
+            VStack {
+                WellbeingTabView()
+            }.navigationBarHidden(true).tabItem {
+                Image(systemName: "figure.wave.circle.fill")
+                Text("Wellbeing")
+            }
+
+            VStack {
+                CommunityTabView()
+            }.navigationBarHidden(true).tabItem {
+                Image(systemName: "person.2.circle.fill")
+                Text("Community")
             }
 
             VStack {
                 SettingsTabView()
             }.navigationBarHidden(true).tabItem {
-                Image(systemName: "gear")
+                Image(systemName: "gearshape.fill")
                 Text("Settings")
             }
 

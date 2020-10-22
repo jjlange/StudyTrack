@@ -12,18 +12,23 @@
 		862F581C2538F36B003693B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862F581B2538F36B003693B3 /* Assets.xcassets */; };
 		862F581F2538F36B003693B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862F581E2538F36B003693B3 /* Preview Assets.xcassets */; };
 		86C2B9C7253F93A80052CAC8 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C2B9C6253F93A80052CAC8 /* Alamofire.framework */; };
+		BB0150A94F92507C18389FB9 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB01569A3556779E65E90C56 /* Card.swift */; };
 		BB01520AF8CF4BC5A698424D /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB015CCC6668223B558A2902 /* StartView.swift */; };
 		BB0153A58296DF5F8095840A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0150067D775033C8A6F429 /* HomeView.swift */; };
 		BB015412A01316A2653052C7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0159D8708B9000FC0FCE0C /* LoginView.swift */; };
 		BB01558E800264CC377B6067 /* ALoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0154EA3BE59B77FD808D84 /* ALoginView.swift */; };
 		BB01565A4DE12698D91620FE /* Communication.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB015EEBD4D37C55411C3F41 /* Communication.swift */; };
 		BB0156F8459E858D9F1F1A94 /* SettingsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB015ECF0A0304BA4026F7A3 /* SettingsTabView.swift */; };
+		BB015814C4EB6DFF0F893090 /* CardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB015A51669780C92297B5FC /* CardRow.swift */; };
 		BB0158977F3E53AABFA7E0FF /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0159DC382FB13F945095C0 /* HomeTabView.swift */; };
 		BB015A9401464A9167A50175 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB015695D958294003ED162B /* Server.swift */; };
+		BB015C449E1C27F08740A6AE /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB015D74782C6B3AC2AAD093 /* BlurView.swift */; };
 		BB015D502B90190D545A67D9 /* GettingStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0154071C6129D17DC280E0 /* GettingStartedView.swift */; };
 		BB015DC822B8AFA6F81E4389 /* UserDefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB015DAE60894FE0B0864E89 /* UserDefaultKeys.swift */; };
 		BB015EBEDF46C98745499C02 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB01523065BA075BC13FE682 /* UserDefaults.swift */; };
 		BB015F4F124566C44C6E7B44 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB01507A2A48F245B91BA438 /* User.swift */; };
+		BB015F902F8F7DE82C5D078B /* CommunityTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB015FEF37D5B21D81F7B4D2 /* CommunityTabView.swift */; };
+		BB015FB7A345034DC163BE89 /* WellbeingTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0152B4860F26703D2BD0E5 /* WellbeingTabView.swift */; };
 		F85B7F689D108E4A8A02DF55 /* Pods_TrackAndTrace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9591F4F3241310BC7DE6487A /* Pods_TrackAndTrace.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,15 +46,20 @@
 		BB0150067D775033C8A6F429 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		BB01507A2A48F245B91BA438 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BB01523065BA075BC13FE682 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		BB0152B4860F26703D2BD0E5 /* WellbeingTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WellbeingTabView.swift; sourceTree = "<group>"; };
 		BB0154071C6129D17DC280E0 /* GettingStartedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GettingStartedView.swift; sourceTree = "<group>"; };
 		BB0154EA3BE59B77FD808D84 /* ALoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALoginView.swift; sourceTree = "<group>"; };
 		BB015695D958294003ED162B /* Server.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		BB01569A3556779E65E90C56 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		BB0159D8708B9000FC0FCE0C /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = Pods/LoginView.swift; sourceTree = SOURCE_ROOT; };
 		BB0159DC382FB13F945095C0 /* HomeTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		BB015A51669780C92297B5FC /* CardRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardRow.swift; sourceTree = "<group>"; };
 		BB015CCC6668223B558A2902 /* StartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		BB015D74782C6B3AC2AAD093 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		BB015DAE60894FE0B0864E89 /* UserDefaultKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultKeys.swift; sourceTree = "<group>"; };
 		BB015ECF0A0304BA4026F7A3 /* SettingsTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTabView.swift; sourceTree = "<group>"; };
 		BB015EEBD4D37C55411C3F41 /* Communication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Communication.swift; sourceTree = "<group>"; };
+		BB015FEF37D5B21D81F7B4D2 /* CommunityTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunityTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +147,15 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		BB0156B80A666AD6F7BC37AB /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				BB01569A3556779E65E90C56 /* Card.swift */,
+				BB015A51669780C92297B5FC /* CardRow.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
 		BB01576AC1188FB3B00C51FE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +190,8 @@
 			children = (
 				BB0159DC382FB13F945095C0 /* HomeTabView.swift */,
 				BB015ECF0A0304BA4026F7A3 /* SettingsTabView.swift */,
+				BB015FEF37D5B21D81F7B4D2 /* CommunityTabView.swift */,
+				BB0152B4860F26703D2BD0E5 /* WellbeingTabView.swift */,
 			);
 			path = TabViews;
 			sourceTree = "<group>";
@@ -178,8 +199,18 @@
 		BB015C5E163A16F8D54E1594 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				BB0156B80A666AD6F7BC37AB /* Cards */,
+				BB015F187A8278ADDC6354ED /* View */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		BB015F187A8278ADDC6354ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BB015D74782C6B3AC2AAD093 /* BlurView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,6 +339,11 @@
 				BB0156F8459E858D9F1F1A94 /* SettingsTabView.swift in Sources */,
 				BB015EBEDF46C98745499C02 /* UserDefaults.swift in Sources */,
 				BB015DC822B8AFA6F81E4389 /* UserDefaultKeys.swift in Sources */,
+				BB015F902F8F7DE82C5D078B /* CommunityTabView.swift in Sources */,
+				BB015FB7A345034DC163BE89 /* WellbeingTabView.swift in Sources */,
+				BB0150A94F92507C18389FB9 /* Card.swift in Sources */,
+				BB015814C4EB6DFF0F893090 /* CardRow.swift in Sources */,
+				BB015C449E1C27F08740A6AE /* BlurView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -36,6 +36,7 @@ public class Communication {
                 UserDefaults.standard.setFirstName(value: (json?["first_name"].string)!)
                 UserDefaults.standard.setSurname(value: (json?["surname"].string)!)
                 UserDefaults.standard.setUniversityName(value: (json?["university_name"].string)!)
+                UserDefaults.standard.setRiskLevel(value: (json?["risk_level"].int)!)
             }
 
             completion(user, success)

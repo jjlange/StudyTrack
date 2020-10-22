@@ -44,7 +44,7 @@ struct StartView: View {
                             .padding(.top, 60)
                 }
                 Spacer()
-                Text("Copyright © 2020, created by students.\nVersion: 1.0.0").foregroundColor(Color("Gray")).padding(.top, 40).font(.body).multilineTextAlignment(.center)
+                Text("Copyright © 2020, StudyTrack.\nVersion: 1.0.0").foregroundColor(Color("Gray")).padding(.top, 40).font(.body).multilineTextAlignment(.center)
                 Spacer()
             }.navigationBarHidden(true)
     }

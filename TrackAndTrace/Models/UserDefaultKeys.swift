@@ -9,4 +9,5 @@ enum UserDefaultsKeys : String {
     case first_name
     case surname
     case university_name
+    case risk_level
 }
