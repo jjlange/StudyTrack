@@ -17,4 +17,4 @@ Plug in your phone (or choose a simulator) and click on the play button (top lef
 ## Does it run on Mac and the Apple Watch too?&nbsp; 🖥 &nbsp;⌚️
 #### We haven't tried that yet. Though since it's written in SwiftUI, it might run on macOS with some small tweaks!
 #### You won't be able to run it on an Apple Watch yet, since watchOS is using different UI components. This might change in the future.
-#### WatchKit allows you to add a separate extention to your app though. This would allow you to add an Apple Watch application with its own views. You will still be able to access the controllers, models, etc from the original iOS app folder. 
+#### WatchKit allows you to add a separate extention to your app though. This would allow you to add an Apple Watch application with its own views. You will still be able to access the controllers, models, and most importantly custom UI components from the original iOS app folder. 
