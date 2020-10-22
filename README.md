@@ -1,5 +1,5 @@
 # Welcome to StudyTrack  📱
-Source code of the Track &amp; trace app for universities. Project for the Programming Society - Hackathon by the University of Westminster
+Source code of StudyTrack, a Track &amp; trace app for universities. Project for the Programming Society - Hackathon by the University of Westminster
 
 ## Main source code  &nbsp; 🛠
 The app is written in Swift (98.9%) and small piece of Ruby (1.1%) for the package manager to import the two important frameworks (Alamofire & SwiftyJSON). You can find the actual written source code for the iOS (& maybe macOS application 😉) in the 'TrackAndTrace' folder.
